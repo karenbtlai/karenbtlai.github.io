@@ -1,5 +1,7 @@
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
-@import url("font-awesome.min.css");
+@font-face {
+	font-family: century gothic;
+	src: url(../assets/fonts/centurygothic.ttf);
+}
 
 /*
 	Overflow by HTML5 UP
@@ -1316,8 +1318,8 @@
 		background-size: auto, cover;
 		background-position: top left, center 0;
 		background-attachment: fixed, fixed;
-		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 18pt;
+		font-family: century gothic;
+		font-size: 18px;
 		line-height: 1.75em;
 		font-weight: 300;
 		letter-spacing: 1px;
@@ -1808,8 +1810,7 @@
 				.box.style1 .image img {
 					position: absolute;
 					top: 0;
-					height: 100%;
-					width: auto;
+					width: 100%;
 				}
 
 			.box.style1 .inner > :last-child {
@@ -1942,7 +1943,7 @@
 
 			#header header h1 {
 				font-weight: 600;
-				font-size: 2em;
+				font-size: 3em;
 				letter-spacing: 10px;
 			}
 
@@ -1950,7 +1951,7 @@
 				border-top: solid 1px rgba(255, 255, 255, 0.5);
 				color: rgba(255, 255, 255, 0.75);
 				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.1875);
-				font-size: 1em;
+				font-size: 1.4em;
 				text-transform: uppercase;
 				letter-spacing: 3px;
 				padding: 0;
@@ -2226,7 +2227,7 @@
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 16pt;
+				font-size: 16px;
 			}
 
 	}
@@ -2261,7 +2262,7 @@
 			}
 
 			input, textarea, select {
-				font-size: 14pt;
+				font-size: 14px;
 			}
 
 			h1, h2, h3, h4, h5, h6 {
@@ -2333,7 +2334,7 @@
 
 			body, input, textarea, select {
 				line-height: 1.5em;
-				font-size: 12pt;
+				font-size: 14px;
 				letter-spacing: 0;
 			}
 
