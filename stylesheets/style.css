@@ -159,6 +159,9 @@ span {
 	overflow-y:hidden;
 	white-space:nowrap;
 	} 
+#nav {
+	text-align:right;
+}
 
 ul{
 	list-style-type:none;
