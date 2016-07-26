@@ -401,6 +401,18 @@ footer{
 	max-width:50%;
 	margin-left:25%;
 }
+.resume {
+	font: 16px century gothic;
+	color: white;
+	text-align:center;
+	border:none;
+	background-color:#13B472;
+	padding:5px 20px;
+	margin-left:42%;
+}
+.resume:hover {
+	background-color:#7CC8A2;
+}
 .full-width {
 	width: 100%;
 	max-width:1280px;
