@@ -1352,7 +1352,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 400;
+		font-weight: 600;
 		text-transform: uppercase;
 		line-height: 1.75em;
 	}
@@ -1706,7 +1706,7 @@
 		padding: 1em 3em 1em 3em;
 		text-align: center;
 		border-radius: 3em;
-		font-weight: 400;
+		font-weight: 600;
 	}
 
 		input[type="button"]:hover,
@@ -2017,7 +2017,7 @@
 		}
 
 			#banner header h2 {
-				font-weight: 400;
+				font-weight: 600;
 				font-size: 1.75em;
 				letter-spacing: 8px;
 			}
