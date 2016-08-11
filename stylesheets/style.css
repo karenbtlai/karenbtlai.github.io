@@ -1,3 +1,8 @@
+@font-face {
+	font-family: century gothic;
+	src: url(../images/centurygothic.ttf);
+}
+
 @media (max-width:767px){
 	#nav {
 		display:none;
@@ -6,13 +11,13 @@
 		width:40px;
 	}
 	.menubar {
-		padding: 10px 10px 0px!important;
+		padding: 5px 10px 0px!important;
 	}
 	#btn-aboutme {
-		margin-top:55px !important;
+		margin-top:50px !important;
 	}
 	.footer-right {
-		margin-top: -62px;
+		margin-top: -55px;
 	}
 	.button3, .button4{
 		height: 468px !important;
@@ -20,7 +25,18 @@
 	.col-sm-7 {
 		height:470px !important;
 	}
+	.snippet {
+		width: 90% !important;
+	}
+	#aboutme > .row > .col-sm-12 {
+	max-width:100% !important;
+	margin-left:0 !important;
+	}
+	.resume {
+		margin-left:35% !important;
+	}
 }
+
 ::selection{
 	background:none;
 	}
@@ -42,40 +58,46 @@
 	opacity:1;
 	}
 h1{
-	font: 50px century gothic;
+	font-family:"century gothic";
+	font-size: 50px;
 	color: #40413f;
 	text-align:center;
+	margin:15px;
 	}
 h2{
-	font: 16px century gothic;
+	font-family:"century gothic";
+	font-size: 16px;
 	color: #40413f;
 	text-align:center;
 	margin:15px;
 	}
 h3{
-	/*background-color: #0bb572;*/
-	font:35px Century Gothic;
+	font-family:"century gothic";
+	font-size:35px;
 	color:#FFFFFF;
 	padding:8px;
 	padding-left:40px;
 	}
 h4{
+	font-family:"century gothic";
 	background-color: #0bb572;
-	font:35px Century Gothic;
+	font-size:35px;
 	color:#FFFFFF;
 	padding:15px;
 	transform:rotate(-90deg);
 	}
 p{
-	font:14px Century Gothic;
-	color:40413f;
+	font-family:"century gothic";
+	font-size:14px;
+	color:#40413f;
 	margin:15px;
 	}
 body {
 	overflow-x:hidden;
 	}
 a:link{
-	font:14px Century Gothic;
+	font-family:"century gothic";
+	font-size:14px;
 	color:#11b672;
 	}
 [class*="col-"] {
@@ -119,10 +141,9 @@ span {
 	}
 .menubar{
 	width:100%;
-	padding: 10px 10px 0px 10px;
+	padding: 10px 10px 10px 10px;
 	border-spacing:0px;
 	background-color:#FFFFFF;
-	border-bottom: 4px solid #FFFFFF;
 	box-shadow: 0px 10px 10px hsla(0,0%,0%,0.3);
 	-webkit-box-shadow: 0px 10px 10px rgba(86, 86, 86, 0.5);
 	-moz-box-shadow: 0px 10px 10px rgba(86, 86, 86, 0.5);
@@ -138,6 +159,9 @@ span {
 	overflow-y:hidden;
 	white-space:nowrap;
 	} 
+#nav {
+	text-align:right;
+}
 
 ul{
 	list-style-type:none;
@@ -145,9 +169,6 @@ ul{
 	}
 li{
 	display:inline;
-	}
-div{
-	/*width:1280px;*/
 	}
 .menubar button{
 	color:#40413f;
@@ -162,23 +183,30 @@ div{
 .menubutton{
 	background:none;
 	border:none;
-	font:14px Century Gothic;
+	font-size:14px;
+	font-family:"century gothic";
 	color:#40413f;
 	}
 .wrapper-main-content{
 	}
 footer{
-	font:14px Century Gothic;
+	font-size:14px;
+	font-family:"century gothic";
 	color:#40413f;
 	padding:30px;
 	}
 .footer-left {
 	padding-top:20px;
-	padding-left:10px;
+}
+.footer-left > p {
+	margin:0px;
 }
 .footer-right{
 	padding-right:0px;
 	}
+.footer-right > p {
+	margin:0px;
+}
 .wrapper-content table{
 	padding:0px;
 	margin:0px;
@@ -386,6 +414,22 @@ footer{
 #aboutme {
 	padding: 30px;
 }
+#aboutme > .row > .col-sm-12 {
+	max-width:50%;
+	margin-left:25%;
+}
+.resume {
+	font: 16px century gothic;
+	color: white;
+	text-align:center;
+	border:none;
+	background-color:#13B472;
+	padding:5px 20px;
+	margin-left:42%;
+}
+.resume:hover {
+	background-color:#7CC8A2;
+}
 .full-width {
 	width: 100%;
 	max-width:1280px;
@@ -454,5 +498,5 @@ input{
     text-align: left;
 }
 .logo {
-	margin:18px 15px -10px 12px;
+	margin-bottom:5px;
 	width:30px;
