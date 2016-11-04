@@ -11,7 +11,7 @@
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="stylesheets/style.css">
-		<link rel="javascript" href="script.js">
+		<script src="script.js"></script>
 		<link rel="icon" type="image/png" href="images/logo.png">
 	</head>
 	
@@ -42,7 +42,7 @@
 		<div class="container-fluid full-width">
 			<div class="row">
 				<div class="col-sm-12">
-					<button id="btn-aboutme" type="button" onclick="self.location.href='#aboutme'" data-toggle="collapse" data-target="#aboutme" >
+					<button id="btn-aboutme" type="button" onclick="self.location.href='#aboutme'" data-toggle="collapse" data-target="#aboutme">
 						<img class="img-responsive full-width mypicture" src="images/picture_myself.jpg" width="1280px">
 					</button>
 				</div>
@@ -60,7 +60,7 @@
 					</p>
 					<br>
 					
-					<button class="resume" onclick="window.open('images/karen_lai_resume_2016.pdf')">Resume</button>
+					<button id="resume" class="resume" onclick="window.open('images/karen_lai_resume_2016.pdf')">Resume</button>
 
 					<br><br>
 
@@ -89,7 +89,7 @@
 			</div>
 		</div>
 
-		<div class="container-fluid full-width">
+		<div id="projects" class="container-fluid full-width">
 			<div class="row">
 				
 				<div class="col-sm-7">
