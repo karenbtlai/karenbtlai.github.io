@@ -500,3 +500,57 @@ input{
 .logo {
 	margin-bottom:5px;
 	width:30px;
+}
+#carousel ul {
+	max-height:10em;
+	overflow-x:scroll;
+	overflow-y:hidden;
+	white-space:nowrap;
+}
+#carousel li {
+	display: inline; 
+}
+#carousel li > img {
+	height:10em;
+}
+.carousel-inner .item {
+	width:100vw;
+	height:80vh;
+}
+.carousel-inner .item img {
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	height:80vh;
+	object-fit:contain;
+}
+.carousel-inner .previous {
+	background:#e5e5e5;
+    background: -webkit-linear-gradient(left, #40413f, rgba(0,0,0,0));
+    background: -o-linear-gradient(right, #40413f, rgba(0,0,0,0));
+    background: -moz-linear-gradient(right, #40413f, rgba(0,0,0,0));
+    background: linear-gradient(to right, #40413f, rgba(0,0,0,0));
+	left:0 !important;
+	width:6%;
+
+	font-size:35px;
+	color:#FFFFFF;
+	text-shadow:none;
+	padding:35vh 10px 3px 3px;
+}
+.carousel-inner .next {
+	background:#e5e5e5;
+	background: -webkit-linear-gradient(right, #40413f, rgba(0,0,0,0));
+    background: -o-linear-gradient(left, #40413f, rgba(0,0,0,0));
+    background: -moz-linear-gradient(left, #40413f, rgba(0,0,0,0));
+    background: linear-gradient(to left, #40413f, rgba(0,0,0,0));
+	left:94% !important;
+	width:6%;
+
+	font-size:35px;
+	color:#FFFFFF;
+	text-shadow:none;
+	padding: 35vh 3px 3px 10px;
+}
