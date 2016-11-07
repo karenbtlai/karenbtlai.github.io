@@ -32,9 +32,6 @@
 	max-width:100% !important;
 	margin-left:0 !important;
 	}
-	.resume {
-		margin-left:35% !important;
-	}
 }
 
 ::selection{
@@ -425,7 +422,6 @@ footer{
 	border:none;
 	background-color:#13B472;
 	padding:5px 20px;
-	margin-left:42%;
 }
 .resume:hover {
 	background-color:#7CC8A2;
