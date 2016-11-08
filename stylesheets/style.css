@@ -32,6 +32,19 @@
 	max-width:100% !important;
 	margin-left:0 !important;
 	}
+	h1 {
+		font-size:30px !important;
+	}
+	h2 {
+		font-size:15px !important;
+	}
+	h3 {
+		font-size:25px !important;
+	}
+	p {
+		font-size:12px !important;
+	}
+
 }
 
 ::selection{
@@ -236,7 +249,7 @@ footer{
 .text1 {
 	opacity:0;
 	transition:opacity 0.5s linear;
-	font:50px Century Gothic;
+	font:50px Century Gothic !important;
 	color:#40413f;
 	line-height:normal;
 	margin-top:200px;
@@ -244,7 +257,7 @@ footer{
 .text1-description {
 	opacity:0;
 	transition:opacity 0.5s linear;
-	font: 17px Century Gothic;
+	font: 17px Century Gothic !important;
 	color:#40413f;
 	line-height:normal;
 }
