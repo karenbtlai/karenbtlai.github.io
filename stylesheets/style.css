@@ -19,7 +19,7 @@
 	.footer-right {
 		margin-top: -55px;
 	}
-	.button3, .button4{
+	.button3, .button4 {
 		height: 468px !important;
 	}
 	.col-sm-7 {
@@ -398,6 +398,60 @@ footer{
 .button6:hover .text1-description{
 	opacity:1;
 	}
+.button7{
+	background: url(../images/roto/steaminDemons3.jpg) no-repeat center;
+	background-size:cover;
+	box-shadow:none;
+	border:none;
+	width:852px;
+	height:400px;
+	transition: background 1s linear;
+	line-height:5px;
+	position:center;
+	}
+.button7:hover{
+	background:
+	linear-gradient(
+		rgba(255,255,255,0),
+		rgba(255,255,255,0.8)
+	),
+	url(../images/roto/steaminDemons3.jpg) no-repeat center;
+	background-size:cover;
+	transition: background 1s linear;
+	}
+.button7:hover .text1{
+	opacity:1;
+	}
+.button7:hover .text1-description{
+	opacity:1;
+	}
+.button8{
+	background: url(../images/roto/roto.png) no-repeat top;
+	background-size:cover;
+	box-shadow:none;
+	border:none;
+	width:852px;
+	height:500px;
+	transition: background 1s linear;
+	line-height:5px;
+	position:center;
+	}
+.button8:hover{
+	background:
+	linear-gradient(
+		rgba(255,255,255,0),
+		rgba(255,255,255,0.8)
+	),
+	url(../images/roto/roto.png) no-repeat top;
+	background-size:cover;
+	transition: background 1s linear;
+	}
+.button8:hover .text1{
+	opacity:1;
+	}
+.button8:hover .text1-description{
+	opacity:1;
+	}
 #btn-aboutme {
     margin: 0;
     margin-top: 60px;
@@ -509,8 +563,7 @@ input{
 #carousel li > img {
 	height:10em;
 }
-.carousel-inner .item {
-	width:100vw;
+.carousel-inner .item {f
 	height:80vh;
 }
 .carousel-inner .item img {
