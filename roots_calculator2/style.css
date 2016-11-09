@@ -1,3 +1,18 @@
+@media (max-width:767px) {
+
+	#circle {
+		width:110% !important;
+		position:fixed !important;
+
+		padding: 0px !important;
+		border-radius: 0px !important;
+
+		left: -5% !important;
+		top:-10% !important;
+	}
+
+}
+
 * {
 	margin:0;
 	padding:0;
@@ -61,16 +76,31 @@ sup {
 
 }
 
-#equation, #display, #root {
+#equation, #display, #root, #output {
 	color: #3C4944;
 	margin: 20px;
 	margin-top: 10px;
 	line-height: 0;
+	height:20px;
+}
 
+#output {
+	position:relative;
+	float:right;
+	margin-right:-20px;
+	max-width:230px;
 }
 
 #root {
 	float: right;
+	max-width:60px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+
+	line-height:normal;
+	margin-top:0px;
+
 }
 
 .keys {
