@@ -1,0 +1,127 @@
+
+span {
+	float:left;
+}
+
+.title-yellow {
+	font-family:futura;
+	font-size:50px;
+	color:#FEB300;
+}
+
+.title-gray {
+	font-family:futura;
+	font-size:50px;
+	font-weight:bold;
+	color:#333333;
+}
+
+.font-century {
+	font-family:"century gothic";
+}
+
+.font-gray > p {
+	color:#757575;
+	font-size:14px;
+	font-family:verdana;
+}
+.block-row {
+	margin-left:70px;
+	margin-right:70px;
+	margin-top:35px;
+}
+
+.row > [class*='col-'] > span > h1 {
+	font-family:futura;
+
+}
+
+.row > .col-sm-7 {
+	background-color:#F7F8F2;
+}
+
+p {
+	font-family:verdana;
+}
+
+.bloc > span > h1, .bloc > span > p {
+	color: white;
+}
+
+.bloc > span > h1 {
+	font-size:36px;
+	text-align: left;
+}
+
+.bloc > span > p {
+	font-size:14px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+.bloc > span {
+	margin:auto;
+	margin-left:70px;
+	margin-right:70px;
+}
+
+.block-shadow > .row {
+	height:500px;
+}
+
+.block-shadow > .row > .bloc > span {
+	margin-left:85px;
+}
+
+
+.row > .bloc {
+	height:500px;
+}
+
+.block-shadow {
+	box-shadow:0px 3px 12px #878787;
+	margin: 40px 70px;
+	overflow: hidden;
+}
+
+.block-blue {
+	background-color: #84A7C2;
+}
+
+.block-yellow {
+	background-color: #FEB300;
+}
+
+.block-green {
+	background-color: #88B5B5;
+}
+
+.block-red {
+	background-color: #DE6749;
+}
+
+.block-gray {
+	background-color: #757575;
+	padding:40px;
+
+}
+
+.block-gray > span > p{
+	color:white;
+	text-align:center;
+	margin:0px !important;
+}
+
+.center {
+	margin:auto;
+}
