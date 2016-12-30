@@ -297,7 +297,7 @@ footer{
 	opacity:1;
 	}
 .button3{
-	background: url(../images/3.png) center;
+	background: url(../images/sprint-5.jpg) center;
 	background-size:cover;
 	box-shadow:none;
 	border:none;
@@ -312,7 +312,7 @@ footer{
 		rgba(255,255,255,0),
 		rgba(255,255,255,0.8)
 	),
-	url(../images/3.png) center;
+	url(../images/sprint-5.jpg) center;
 	background-size:cover;
 	transition: background 1s linear;
 	}
