@@ -3,6 +3,11 @@
 	src: url(../images/centurygothic.ttf);
 }
 
+@font-face {
+	font-family: futura;
+	src: url(../images/futuramedium.ttf);
+}
+
 @media (max-width:767px){
 	#nav {
 		display:none;
@@ -56,7 +61,7 @@
 	z-index:-6px;
 	}
 ::-webkit-scrollbar-track{
-	background:white;
+	background:transparent;
 	}
 ::-webkit-scrollbar-thumb{
 	opacity:1;
@@ -68,28 +73,28 @@
 	opacity:1;
 	}
 h1{
-	font-family:"century gothic";
+	font-family:"roboto";
 	font-size: 50px;
 	color: #40413f;
 	text-align:center;
 	margin:15px;
 	}
 h2{
-	font-family:"century gothic";
+	font-family:"roboto";
 	font-size: 16px;
 	color: #40413f;
 	text-align:center;
 	margin:15px;
 	}
 h3{
-	font-family:"century gothic";
+	font-family:"roboto";
 	font-size:35px;
 	color:#FFFFFF;
 	padding:8px;
 	padding-left:40px;
 	}
 h4{
-	font-family:"century gothic";
+	font-family:"roboto";
 	background-color: #0bb572;
 	font-size:35px;
 	color:#FFFFFF;
@@ -97,7 +102,7 @@ h4{
 	transform:rotate(-90deg);
 	}
 p{
-	font-family:"century gothic";
+	font-family:"roboto";
 	font-size:14px;
 	color:#40413f;
 	margin:15px;
@@ -106,7 +111,7 @@ body {
 	overflow-x:hidden;
 	}
 a:link{
-	font-family:"century gothic";
+	font-family:"roboto";
 	font-size:14px;
 	color:#11b672;
 	}
@@ -151,12 +156,12 @@ span {
 	}
 .menubar{
 	width:100%;
-	padding: 10px 10px 10px 10px;
+	padding: 0px 10px 0px 10px;
 	border-spacing:0px;
 	background-color:#FFFFFF;
-	box-shadow: 0px 10px 10px hsla(0,0%,0%,0.3);
-	-webkit-box-shadow: 0px 10px 10px rgba(86, 86, 86, 0.5);
-	-moz-box-shadow: 0px 10px 10px rgba(86, 86, 86, 0.5);
+	box-shadow: 0px 3px 3px hsla(0,0%,0%,0.3);
+	-webkit-box-shadow: 0px 3px 3px rgba(86, 86, 86, 0.5);
+	-moz-box-shadow: 0px 3px 3px rgba(86, 86, 86, 0.5);
 
 	z-index:99;
 	}
@@ -194,14 +199,14 @@ li{
 	background:none;
 	border:none;
 	font-size:14px;
-	font-family:"century gothic";
+	font-family:"roboto";
 	color:#40413f;
 	}
 .wrapper-main-content{
 	}
 footer{
 	font-size:14px;
-	font-family:"century gothic";
+	font-family:"roboto";
 	color:#40413f;
 	padding:30px;
 	}
@@ -252,7 +257,7 @@ footer{
 .text1 {
 	opacity:0;
 	transition: opacity 0.5s linear;
-	font:50px Century Gothic !important;
+	font:50px roboto !important;
 	color:#40413f;
 	line-height:normal;
 	margin-top:200px;
@@ -260,7 +265,7 @@ footer{
 .text1-description {
 	opacity:0;
 	transition:opacity 0.5s linear;
-	font: 17px Century Gothic !important;
+	font: 17px roboto !important;
 	color:#40413f;
 	line-height:normal;
 }
@@ -468,6 +473,7 @@ footer{
     margin-top: 60px;
     padding: 0;
     border: none;
+    width:100%;
 }
 .mypicture {
 	transition: all .6s ease;
@@ -479,23 +485,23 @@ footer{
 	padding: 30px;
 }
 #aboutme > .row > .col-sm-12 {
-	max-width:50%;
-	margin-left:25%;
+	max-width:70%;
+	margin-left:15%;
 }
 .resume {
-	font: 16px century gothic;
+	font: 16px roboto;
 	color: white;
 	text-align:center;
 	border:none;
 	background-color:#13B472;
-	padding:5px 20px;
+	padding:10px 30px;
 }
 .resume:hover {
 	background-color:#7CC8A2;
 }
 .full-width {
 	width: 100%;
-	max-width:1280px;
+	max-width:1480px;
 	margin: auto;
 }
 .panel{
@@ -512,7 +518,7 @@ footer{
 	margin-top:92px;
 	}
 form{
-	font:14px century gothic;
+	font:14px roboto;
 	color:#40413f;
 	line-height:20px;
 	}
@@ -527,7 +533,7 @@ input{
 	width:100px;
 	height:30px;
 	background-color:#40413f;
-	font: 14px Century gothic;
+	font: 14px roboto;
 	color: #FFFFFF;
 	}
 .button0:hover{
@@ -535,7 +541,7 @@ input{
 	width:100px;
 	height:30px;
 	background-color:#828282;
-	font: 14px Century gothic;
+	font: 14px roboto;
 	color: #FFFFFF;
 	}
 .paragraph-block{
