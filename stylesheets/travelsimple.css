@@ -1,3 +1,35 @@
+@font-face {
+	font-family: futura;
+	src: url(../images/futuramedium.ttf);
+}
+
+@media (max-width:767px){
+	.container-fluid {
+		padding-left:0px !important;
+		padding-right:0px !important;
+	}
+	.block-row {
+		margin-left:0px !important;
+		margin-right:0px !important;
+		margin-top:35px !important;
+	}
+	.row > .bloc {
+		height:350px !important;
+	}
+	.row > .col-sm-7 {
+		height: 350px !important;
+	}
+	.block-shadow > .row {
+		height:350px !important;
+	}
+
+	.block-shadow {
+		margin:40px 0px !important;
+	}
+	.block-gray {
+		width:100%;
+	}
+}
 
 span {
 	float:left;
@@ -71,20 +103,11 @@ p {
 
 .bloc > span {
 	margin:auto;
-	margin-left:70px;
-	margin-right:70px;
+	margin-left:10%;
+	margin-right:10%;
 }
 
 .block-shadow > .row {
-	height:500px;
-}
-
-.block-shadow > .row > .bloc > span {
-	margin-left:85px;
-}
-
-
-.row > .bloc {
 	height:500px;
 }
 
@@ -92,10 +115,12 @@ p {
 	box-shadow:0px 3px 12px #878787;
 	margin: 40px 70px;
 	overflow: hidden;
+	height:100%;
 }
 
 .block-blue {
 	background-color: #84A7C2;
+
 }
 
 .block-yellow {
@@ -108,11 +133,15 @@ p {
 
 .block-red {
 	background-color: #DE6749;
+
 }
 
 .block-gray {
 	background-color: #757575;
-	padding:40px;
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:40px;
+	padding-bottom:40px;
 
 }
 
