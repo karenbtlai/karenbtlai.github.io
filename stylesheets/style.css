@@ -1,6 +1,6 @@
 
 @font-face {
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	src: url(../images/roboto-regular.ttf);
 }
 
@@ -198,7 +198,7 @@ li{
 	background:none;
 	border:none;
 	font-size:14px;
-	font-family:"roboto";
+	font-family:"roboto", sans-serif;
 	color:#40413f;
 	text-transform:uppercase;
 	}
@@ -206,7 +206,7 @@ li{
 	}
 footer{
 	font-size:14px;
-	font-family:"roboto";
+	font-family:"roboto", sans-serif;
 	color:#40413f;
 	padding:30px;
 	}
