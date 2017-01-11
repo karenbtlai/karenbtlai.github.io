@@ -114,10 +114,10 @@ p{
 body {
 	overflow-x:hidden;
 	}
-a:link{
+a{
 	font-family:"roboto", sans-serif;
 	font-size:14px;
-	color:#11b672;
+	color:#11b672 !important;
 	}
 [class*="col-"] {
 	padding:2px;
