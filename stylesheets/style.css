@@ -252,8 +252,8 @@ footer{
 .button1:hover{
 	background:
 	linear-gradient(
-		rgba(255,255,255,0),
-		rgba(255,255,255,0.8)
+		rgba(0,0,0,0.7),
+		rgba(0,0,0,0.7)
 	),
 	url(../images/calendar_material_board_splash.png);
 	background-size:cover;
@@ -263,7 +263,7 @@ footer{
 	opacity:0;
 	transition: opacity 0.5s linear;
 	font:50px roboto !important;
-	color:#40413f;
+	color:white;
 	line-height:normal;
 	margin-top:200px;
 }
@@ -271,7 +271,7 @@ footer{
 	opacity:0;
 	transition:opacity 0.5s linear;
 	font: 17px roboto !important;
-	color:#40413f;
+	color:white;
 	line-height:normal;
 }
 .button1:hover .text1{
@@ -293,8 +293,8 @@ footer{
 .button2:hover{
 	background:
 	linear-gradient(
-		rgba(255,255,255,0),
-		rgba(255,255,255,0.8)
+		rgba(0,0,0,0.7),
+		rgba(0,0,0,0.7)
 	),
 	url(../images/travelsimple/survey_mock.jpg) center;
 	background-size:cover;
@@ -307,8 +307,8 @@ footer{
 	opacity:1;
 	}
 .button3{
-	background: url(../images/sprint-5.jpg) center;
-	background-size:cover;
+	background: url(../images/microsoft-logo.png) center;
+	background-size:contain;
 	box-shadow:none;
 	border:none;
 	width:852px;
@@ -319,11 +319,11 @@ footer{
 .button3:hover{
 	background:
 	linear-gradient(
-		rgba(255,255,255,0),
-		rgba(255,255,255,0.8)
+		rgba(0,0,0,0.7),
+		rgba(0,0,0,0.7)
 	),
-	url(../images/sprint-5.jpg) center;
-	background-size:cover;
+	url(../images/microsoft-logo.png) center;
+	background-size:contain;
 	transition: background 1s linear;
 	}
 .button3:hover .text1{
@@ -345,8 +345,8 @@ footer{
 .button4:hover{
 	background:
 	linear-gradient(
-		rgba(255,255,255,0),
-		rgba(255,255,255,0.8)
+		rgba(0,0,0,0.7),
+		rgba(0,0,0,0.7)
 	),
 	url(../images/4.png) center;
 	background-size:cover;
@@ -379,8 +379,8 @@ footer{
 .button5:hover{
 	background:
 	linear-gradient(
-		rgba(255,255,255,0),
-		rgba(255,255,255,0.8)
+		rgba(0,0,0,0.7),
+		rgba(0,0,0,0.7)
 	),
 	url(../images/1.png) center;
 	background-size:cover;
@@ -406,8 +406,8 @@ footer{
 .button6:hover{
 	background:
 	linear-gradient(
-		rgba(255,255,255,0),
-		rgba(255,255,255,0.8)
+		rgba(0,0,0,0.7),
+		rgba(0,0,0,0.7)
 	),
 	url(../images/6.jpg);
 	background-size:cover;
@@ -433,8 +433,8 @@ footer{
 .button7:hover{
 	background:
 	linear-gradient(
-		rgba(255,255,255,0),
-		rgba(255,255,255,0.8)
+		rgba(0,0,0,0.7),
+		rgba(0,0,0,0.7)
 	),
 	url(../images/roto/steaminDemons3.jpg) no-repeat center;
 	background-size:cover;
@@ -460,8 +460,8 @@ footer{
 .button8:hover{
 	background:
 	linear-gradient(
-		rgba(255,255,255,0),
-		rgba(255,255,255,0.8)
+		rgba(0,0,0,0.7),
+		rgba(0,0,0,0.7)
 	),
 	url(../images/roto/roto.png) no-repeat top;
 	background-size:cover;
