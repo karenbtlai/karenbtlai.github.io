@@ -4,6 +4,8 @@
 	src: url(../images/roboto-regular.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 
 @media (max-width:767px){
 	#nav {
