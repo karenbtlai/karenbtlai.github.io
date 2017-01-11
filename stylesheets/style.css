@@ -1,10 +1,6 @@
-@font-face {
-	font-family: century gothic;
-	src: url(../images/centurygothic.ttf);
-}
 
 @font-face {
-	font-family: Roboto;
+	font-family: 'Roboto';
 	src: url(../images/roboto-regular.ttf);
 }
 
