@@ -3,6 +3,10 @@
 	src: url(../images/centurygothic.ttf);
 }
 
+@font-face {
+	font-family: Roboto;
+	src: url(../images/roboto-regular.ttf);
+}
 
 
 @media (max-width:767px){
@@ -58,7 +62,7 @@
 	z-index:-6px;
 	}
 ::-webkit-scrollbar-track{
-	background:transparent;
+	background:white;
 	}
 ::-webkit-scrollbar-thumb{
 	opacity:1;
@@ -153,7 +157,7 @@ span {
 	}
 .menubar{
 	width:100%;
-	padding: 3px 10px 0px 10px;
+	padding: 0px 10px 0px 10px;
 	border-spacing:0px;
 	background-color:#FFFFFF;
 	box-shadow: 0px 3px 3px hsla(0,0%,0%,0.3);
@@ -177,7 +181,7 @@ span {
 
 ul{
 	list-style-type:none;
-	margin-top:12px;
+	margin-top:14px;
 	}
 li{
 	display:inline;
@@ -228,7 +232,7 @@ footer{
 	align:center
 	}
 .button1{
-	background-image: url(../images/1.png);
+	background-image: url(../images/calendar_material_board_splash.png);
 	background-size:cover;
 	box-shadow:none;
 	border:none;
@@ -248,7 +252,7 @@ footer{
 		rgba(255,255,255,0),
 		rgba(255,255,255,0.8)
 	),
-	url(../images/1.png);
+	url(../images/calendar_material_board_splash.png);
 	background-size:cover;
 	}
 	
@@ -360,7 +364,7 @@ footer{
 	height:426px;
 	}
 .button5{
-	background: url(../images/5.jpg) center;
+	background: url(../images/1.png) center;
 	background-size:cover;
 	box-shadow:none;
 	border:none;
@@ -375,7 +379,7 @@ footer{
 		rgba(255,255,255,0),
 		rgba(255,255,255,0.8)
 	),
-	url(../images/5.jpg) center;
+	url(../images/1.png) center;
 	background-size:cover;
 	transition: all 1s linear;
 	}
@@ -468,7 +472,7 @@ footer{
 	}
 #btn-aboutme {
     margin: 0;
-    margin-top: 55px;
+    margin-top: 50px;
     padding: 0;
     border: none;
     width:100%;
