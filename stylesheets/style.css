@@ -4,6 +4,11 @@
 	src: url(../images/roboto-regular.ttf);
 }
 
+@font-face {
+	font-family: Century gothic;
+	src: url(../images/centurygothic.ttf);
+}
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 

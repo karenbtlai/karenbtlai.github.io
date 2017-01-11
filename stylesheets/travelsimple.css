@@ -3,6 +3,11 @@
 	src: url(../images/futuramedium.ttf);
 }
 
+@font-face {
+	font-family: Century gothic;
+	src: url(../images/centurygothic.ttf);
+}
+
 @media (max-width:767px){
 	.container-fluid {
 		padding-left:0px !important;
