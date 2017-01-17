@@ -189,6 +189,11 @@ ul{
 li{
 	display:inline;
 	}
+
+.logo-menu {
+	width:40px;
+	margin-top:1%;
+}
 .menubar button{
 	color:#40413f;
 	}
@@ -307,7 +312,7 @@ footer{
 	opacity:1;
 	}
 .button3{
-	background: url(../images/microsoft-logo.png) center;
+	background: url(../images/microsoft-logo.png) center no-repeat;
 	background-size:contain;
 	box-shadow:none;
 	border:none;
@@ -322,7 +327,7 @@ footer{
 		rgba(0,0,0,0.7),
 		rgba(0,0,0,0.7)
 	),
-	url(../images/microsoft-logo.png) center;
+	url(../images/microsoft-logo.png) center no-repeat;
 	background-size:contain;
 	transition: background 1s linear;
 	}
@@ -601,29 +606,29 @@ input{
 }
 .carousel-inner .previous {
 	background:#e5e5e5;
-    background: -webkit-linear-gradient(left, #40413f, rgba(0,0,0,0));
-    background: -o-linear-gradient(right, #40413f, rgba(0,0,0,0));
-    background: -moz-linear-gradient(right, #40413f, rgba(0,0,0,0));
-    background: linear-gradient(to right, #40413f, rgba(0,0,0,0));
+    background: -webkit-linear-gradient(left, #9e9e9e, rgba(0,0,0,0));
+    background: -o-linear-gradient(right, #9e9e9e, rgba(0,0,0,0));
+    background: -moz-linear-gradient(right, #9e9e9e, rgba(0,0,0,0));
+    background: linear-gradient(to right, #9e9e9e, rgba(0,0,0,0));
 	left:0 !important;
 	width:6%;
 
 	font-size:35px;
-	color:#FFFFFF;
+	color:#FFFFFF !important;
 	text-shadow:none;
 	padding:35vh 10px 3px 3px;
 }
 .carousel-inner .next {
 	background:#e5e5e5;
-	background: -webkit-linear-gradient(right, #40413f, rgba(0,0,0,0));
-    background: -o-linear-gradient(left, #40413f, rgba(0,0,0,0));
-    background: -moz-linear-gradient(left, #40413f, rgba(0,0,0,0));
-    background: linear-gradient(to left, #40413f, rgba(0,0,0,0));
+	background: -webkit-linear-gradient(right, #9e9e9e, rgba(0,0,0,0));
+    background: -o-linear-gradient(left, #9e9e9e, rgba(0,0,0,0));
+    background: -moz-linear-gradient(left, #9e9e9e, rgba(0,0,0,0));
+    background: linear-gradient(to left, #9e9e9e, rgba(0,0,0,0));
 	left:94% !important;
 	width:6%;
 
 	font-size:35px;
-	color:#FFFFFF;
+	color:#FFFFFF !important;
 	text-shadow:none;
 	padding: 35vh 3px 3px 10px;
 }
@@ -895,5 +900,9 @@ input{
 	-o-animation-name: moveDown;
 	animation-name: moveDown;
 }
+
+
+
+
 
 

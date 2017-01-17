@@ -4,10 +4,7 @@
 
 $(document).ready(function (){
 
-	 $('#carousel').carousel({
-	 	pause: true,
-	 	interval: false
-	 });
+	 
 	 
 	var isExpanded = $("#btn-aboutme").attr("aria-expanded");
 	isExpanded = false;
