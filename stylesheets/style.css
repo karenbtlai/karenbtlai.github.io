@@ -244,8 +244,7 @@ footer{
 	background-size:cover;
 	box-shadow:none;
 	border:none;
-	width:426px;
-	height:426px;
+	height:275px;
 	line-height:5px;
 	position:right;
 	-webkit-transition: all 1s;
@@ -270,7 +269,6 @@ footer{
 	font:50px roboto !important;
 	color:white;
 	line-height:normal;
-	margin-top:200px;
 }
 .text1-description {
 	opacity:0;
@@ -290,8 +288,7 @@ footer{
 	background-size:cover;
 	box-shadow:none;
 	border:none;
-	width:426px;
-	height:426px;
+	height:275px;
 	line-height:5px;
 	position:right;
 	}
@@ -316,8 +313,7 @@ footer{
 	background-size:contain;
 	box-shadow:none;
 	border:none;
-	width:852px;
-	height:852px;
+	height:550px;
 	line-height:5px;
 	position:right;
 	}
@@ -342,8 +338,7 @@ footer{
 	background-size:cover;
 	box-shadow:none;
 	border:none;
-	width:852px;
-	height:852px;
+	height:550px;
 	line-height:5px;
 	position:center;
 	}
@@ -364,20 +359,11 @@ footer{
 	opacity:1;
 	}
 .button5{
-	width:426px;
-	height:426px;
-	}
-.button6{
-	width:426px;
-	height:426px;
-	}
-.button5{
 	background: url(../images/1.png) center;
 	background-size:cover;
 	box-shadow:none;
 	border:none;
-	width:426px;
-	height:426px;
+	height:275px;
 	line-height:5px;
 	position:center;
 	}
@@ -402,8 +388,7 @@ footer{
 	background-size:cover;
 	box-shadow:none;
 	border:none;
-	width:426px;
-	height:426px;
+	height:275px;
 	line-height:5px;
 	position:right;
 	transition: background 1s linear;
@@ -429,8 +414,7 @@ footer{
 	background-size:cover;
 	box-shadow:none;
 	border:none;
-	width:852px;
-	height:400px;
+	height:550px;
 	transition: background 1s linear;
 	line-height:5px;
 	position:center;
@@ -456,8 +440,7 @@ footer{
 	background-size:cover;
 	box-shadow:none;
 	border:none;
-	width:852px;
-	height:500px;
+	height:550px;
 	transition: background 1s linear;
 	line-height:5px;
 	position:center;
