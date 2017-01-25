@@ -8,25 +8,28 @@ $(document).ready(function (){
 	 
 	var isExpanded = $("#btn-aboutme").attr("aria-expanded");
 	isExpanded = false;
-	//console.log(isExpanded);
 
     $("#btn-aboutme").click(function (){
 
     	if (isExpanded == false) {
 	        $('html, body').animate({
-	            scrollTop: $("#projects").offset().top -200
+	            scrollTop: $("#projects").offset().top + 100
 	        }, 1000);
 
-	    isExpanded = true;
-	    //console.log(isExpanded);
-
+	   	 	isExpanded = true;
+	   
 	    } else {
+	    	$('html, body').animate({
+	            scrollTop: $("#projects").offset().top +180
+	        }, 800);
+
 	    	isExpanded = false;
 	    }
    	});
 
 });
 
+//(creds to Bramus @ https://codepen.io/bramus)
 jQuery(function($) {
   
   // Function which adds the 'animated' class to any '.animatable' in view
