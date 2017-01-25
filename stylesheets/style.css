@@ -37,6 +37,11 @@
 	.snippet {
 		width: 90% !important;
 	}
+	.blurb {
+	width:100% !important;
+	margin-left: 0% !important;
+	}
+
 	#aboutme > .row > .col-sm-12 {
 	max-width:100% !important;
 	margin-left:0 !important;
@@ -880,12 +885,20 @@ input{
 
 /*safari fixes*/
 
-.col-sm-6 {
+[class*='col-'] .col-sm-6 {
 	width:49.9%!important;
+}
+footer .col-sm-6 {
+	width:100% !important;
 }
 .btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
 
 	display: table-column !important;
+}
+
+.blurb {
+	width:60%;
+	margin-left: 23%;
 }
 
 
