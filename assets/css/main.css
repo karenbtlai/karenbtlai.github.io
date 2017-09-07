@@ -1657,7 +1657,7 @@
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
-		line-height: 1.75;
+		line-height: 1.25;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -2904,7 +2904,7 @@
 
 		#header nav {
 			position: fixed;
-			left: 2em;
+			left: 1.75em;
 			top: 2em;
 			z-index: 10000;
 		}
@@ -3141,10 +3141,10 @@
 		@media screen and (max-width: 736px) {
 
 			#menu {
-				-moz-transform: translateX(16.5em);
-				-webkit-transform: translateX(16.5em);
-				-ms-transform: translateX(16.5em);
-				transform: translateX(16.5em);
+				-moz-transform: translateX(-16.5em);
+				-webkit-transform: translateX(-16.5em);
+				-ms-transform: translateX(-16.5em);
+				transform: translateX(-16.5em);
 				width: 16.5em;
 			}
 
@@ -3154,7 +3154,7 @@
 
 				#menu > .close {
 					top: 0.5em;
-					left: -4.25em;
+					right: -4.25em;
 					width: 4.25em;
 					text-indent: 4.25em;
 				}
@@ -3514,7 +3514,7 @@
 
 			body, input, textarea, select {
 				font-size: 14pt;
-				line-height: 1.75em;
+				line-height: 1.25em;
 			}
 
 		/* Carousel */
