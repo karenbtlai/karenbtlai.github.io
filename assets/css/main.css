@@ -3016,17 +3016,17 @@
 	}
 
 	#menu {
-		-moz-transform: translateX(22em);
-		-webkit-transform: translateX(22em);
-		-ms-transform: translateX(22em);
-		transform: translateX(22em);
+		-moz-transform: translateX(-22em);
+		-webkit-transform: translateX(-22em);
+		-ms-transform: translateX(-22em);
+		transform: translateX(-22em);
 		-moz-transition: -moz-transform 0.45s ease, visibility 0.45s;
 		-webkit-transition: -webkit-transform 0.45s ease, visibility 0.45s;
 		-ms-transition: -ms-transform 0.45s ease, visibility 0.45s;
 		transition: transform 0.45s ease, visibility 0.45s;
 		position: fixed;
 		top: 0;
-		right: 0;
+		left: 0;
 		width: 22em;
 		max-width: 80%;
 		height: 100%;
@@ -3091,7 +3091,7 @@
 			display: block;
 			position: absolute;
 			top: 2em;
-			left: -6em;
+			right: -6em;
 			width: 6em;
 			text-indent: 6em;
 			height: 3em;
