@@ -1,11 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900')
-/*
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 /* Reset */
 
@@ -968,6 +964,14 @@
 
 	}
 
+	@media screen and (max-width:1280px) and (min-width: 736px) {
+
+		#wrapper > * > .inner { 
+			margin: 2.5em auto 0em !important;
+		}
+
+	}
+
 	@media screen and (max-width: 736px) {
 
 		.row > * {
@@ -1047,7 +1051,7 @@
 		}
 
 		.row.uniform.\32 5\25 {
-			margin: -0.25em 0 -1px -0.25em;
+			margin: -0.25em 0 -1px -0.25em !important; 
 		}
 
 		.\31 2u\28small\29, .\31 2u\24\28small\29 {
@@ -2877,7 +2881,7 @@
 			color: inherit;
 			font-weight: 900;
 			letter-spacing: 0.35em;
-			margin: 0 0 2.5em 0;
+			margin: 0 0 2.5em 0em;
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
@@ -2900,7 +2904,7 @@
 
 		#header nav {
 			position: fixed;
-			right: 2em;
+			left: 2em;
 			top: 2em;
 			z-index: 10000;
 		}
