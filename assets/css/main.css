@@ -2814,6 +2814,17 @@
 			width:100% !important;
 		}
 
+		.blog-thumbnail{
+			width:30% ;
+			float:left;
+		}
+
+		.blog-text {
+			margin-left:30%;
+			padding:1.75em;
+			height:14em;
+		}
+
 		@media screen and (max-width: 1280px) {
 
 			.tiles {
@@ -2838,6 +2849,17 @@
 					margin: 4.5em 0 0 2.5em;
 				}
 
+			.blog-thumbnail {
+				width:40% !important;
+				float:left;
+			}
+
+			.blog-text {
+				margin-left:40% !important;
+				padding:1.15em 1.75em !important;
+				height:10em !important;
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2858,6 +2880,16 @@
 						transform: scale(1.0);
 					}
 
+			.blog-thumbnail {
+				width:45% !important;
+				float:left;
+			}
+
+			.blog-text {
+				margin-left:45% !important;
+				padding:1.15em 1.75em !important;
+			}
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -2870,6 +2902,18 @@
 					width: 100%;
 					margin: 1.25em 0 0 0;
 				}
+
+			.blog-thumbnail {
+				width:100% !important;
+				float:left;
+			}
+
+			.blog-text {
+				margin-left:0 !important;
+				margin-top:100% !important;
+				padding:0.75em 1.75em !important;
+			}
+
 
 		}
 
