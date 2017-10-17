@@ -69,7 +69,7 @@
 								<div class="3u 12u$(medium)">
 									<p><b>Design Thinking for the Developer Workshop</b></p>
 									
-									<p>Written and shared with other interns during my IBM Summer 2017 Internship</p>
+									<p>Written, and presented to other interns during my IBM Summer 2017 Internship</p>
 
 									<span class="image main" style="margin-bottom:0em"><img src="images/blog/blog2/karen-pres2.jpg" alt="" /></span><hr>
 									<p><i>
@@ -228,7 +228,81 @@
 									<span class="image main" style="max-width:400px;margin:auto;margin-bottom:3em"><img src="images/blog/blog2/nokia.png" alt="" /></span>
 									<p>
 									<b>CASE STUDY 3: NOKIA</b>
-									...</p>
+									</p>
+
+									<blockquote>
+									<b>Problem:</b><br>
+									To achieve their business goals in developing, marketing, and sellling phones to emerging markets in developing countries, such as rural India.
+									</blockquote>
+
+									<p>
+									With their target users being end users and retailers in rural India, Nokia invested heavily in understanding local needs to better build distribution and retail networks. 
+									</p>
+
+									<span class="image main" style="max-width:600px;margin:auto;margin-bottom:3em"><img src="images/blog/blog2/nokia1200.png" alt="" /></span>
+									<p>This resulted in their most popular model, the NOKIA 1200. It is designed to be higher quality and more durable than competitive models: being dust repellent and having grips for high-humidity environments (ie. India). The most significant competitive advantage with Nokia's phones however, is its multi-functionality and shared-phone capability. It has a built in radio receiver and an LED flashlight, but also an user interface that enables it to be used as a shared-phone. The UI supports 80 different languages, multiple contact lists, and a prepaid usage tracker which tracks the amount of airtime and price of each call. Since most consumers would not be able to afford it if it were a personal cellphone, this design decision was pivotal in their product’s success.</p>
+
+									<p>This model became popular with local micro-entrepreneurs in rural india to invest as rental phones. Nokia made sure to educate the micro-entrepreneurs their products' various technical capabilities, and how it will allow them to further maximize profits. In 2009, 35% of Nokia's total sales were from these markets.</p>
+
+									<p>The business to micro-business relationship outlined above results in mutual finacnial gain, and allows citizens access to mobile networks when infrastructure is lacking other means of communitcation. It has helped promote economic growth by enabling micro-business opportunities, and raised living standards in developing countries, thus help alleviating poverty. In fact, SECC data shows that a surprising 71% of the rural India population has access to a mobile phone as of 2015.</p>
+
+									<hr>
+
+									<span class="image main" style="max-width:600px;margin:auto;margin-bottom:2em"><img src="images/blog/blog2/how-does-this-apply.png" alt="" /></span>
+									<p>
+									Now that we've examined the importance of design and its scale of impact, from a company, city, to a whole country, how does this apply to you? Since obviously, we can't all be influential CEOs. Believe it or not, the design thinking process is actually very beneficial to an intern or junior software developer as well. A good example when writing APIs, and considering it as a customer facing product. In this case, the customer is other developers, inside and outside of the company.
+									</p>
+
+									<hr>
+
+									<p><b>CASE STUDY 4: IBM DASHBOARD MONITORING</b></p>
+
+									<p>
+									IBM has foundry applications that require constant monitoring. If it is not live 99.5% of the time, they give customers of their cloud services refunds of a certain percentage. A UI exists to monitor the applications, displaying green for live, red for down, and grey for no data. No data being collected can only mean that there was a disconnect between the data collector and the data sources and that is an issue. Once, the UI displayed gray for a full 48h over a weekend. This is a problem that calls for a solution.
+									</p>
+
+									<video autoplay loop controls="controls" width="100%" name="IBM Dashboard Monitoring" src="images/blog/blog2/dashboard-monitoring.mp4"></video>
+									
+									<p>
+									A third party dashboard monitoring tool is added to the system. It pulls JSON data from the data sources. If the test results returns false for any of the locations and/or data sources, a pager duty is automatically notified.
+									</p>
+
+									<p>
+									However, problems arose in writing this dashboard monitoring tool. Node has existing APIs to call 2 seperate JSON files for each location: one with test results, and one with location and data source. These two pieces of information are only useful when referenced together, but for some reason it is written seperately. The developer had to hard code the two JSON files based on its naming convention for the API URL. It is only a temporary solution, since it adds an extra, unecessary layer on the toolset and requires updating should the test names ever change.</p>
+
+									<p>If the original developer that wrote the test files considered the use cases for the end-user of his or her APIs, this situation could have been avoided</p>
+
+									<hr>
+
+									<span class="image main" style="max-width:600px;margin:auto;margin-bottom:2em"><img src="images/blog/blog2/api-customer-facing.png" alt="" /></span>
+
+									<p>In the case of a junior developer or an intern writing a set of APIs, one should consider it as a customer facing product. For example, one can think of edge cases by first identifying the user: a functional programmer, or an object-oriented programmer? Then think of what they would want: capture the cases they would use, wouldn't use and wouldn't require support, and what would be difficult with your APIs.</p>
+
+									<span class="image main" style="max-width:600px;margin:auto;margin-bottom:2em"><img src="images/blog/blog2/type-of-programmer.png" alt="" /></span>
+
+									<p>For example, funtional programmers might want APIs that contain pure functions that lack mutable state; while object-oriented programmers may not. Instead, they might prefer stateful classes and methods that change the state of those objects.</p>
+
+									<p>So if you're thinking, 'jokes on you, I already do this. This is basically system requirement analysis,' that's good! As mentioned, the design process is a problem solving process with many overlaps with the software development process. Whether you're a billion dollar company or just one person, the principle is still there. The code you write can be a product to be consumed by people outside of the company, your co-workers, or even you 6 months later.</p>
+
+									<hr>
+
+									<span class="image main"><img src="images/blog/blog2/norman-doors.jpg" alt="" /></span>
+									<p><b>FOOD FOR THOUGHT: NORMAN DOORS</b></p>
+
+									<p>So how do you know what is good design? I like to use the classic example of the Norman Doors. It is often hard to tell which way to open a door, which results in people having to try both ways, causing a lineup. Worse, this may pose to be a safety concern when applied to emergency exits. Sometimes extra signage is added to the door, but that destroys the aesthetics of the original design and is one extra step.</p>
+
+									<p>The answer is that the pull door should have a handle and the push door should have a flat push bar. These two small details signifies the required actions, respectively, and can really decrease these little, daily frustrations. So the next time you have trouble opening a door, walk into glass panels, or have trouble operating an elevator, it might not be you.</p>
+
+									<span class="image main" style="max-width:600px;margin:auto;margin-bottom:2em"><img src="images/blog/blog2/good-design.png" alt="" /></span>
+
+
+
+
+
+
+
+
+
 									
 								</div>
 							</div>
@@ -240,10 +314,9 @@
 									<section class="tiles">
 										<article style="width:100%">
 										<span class="image">
-											<img src="images/pic17.jpg" alt="" />
+											<img src="images/blog/blog1-prev.png" alt="" />
 										</span>
-										<a href="blog.html">
-										<h2>Back to Blog</h2>
+										<a href="blog1.html">
 										<div class="content">
 											<p></p>
 										</div>
