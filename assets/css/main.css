@@ -1867,6 +1867,7 @@
 
 	.column-align {
 		margin-top:0.5em;
+		padding-left:4em;
 	}
 
 /* Section/Article */
@@ -2404,7 +2405,7 @@
 
 		.image.main {
 			display: block;
-			margin: 0 0 3em 0;
+			margin: 1em 0 3em 0;
 			width: 100%;
 		}
 
@@ -2415,7 +2416,7 @@
 			@media screen and (max-width: 736px) {
 
 				.image.main {
-					margin: 0 0 2em 0;
+					margin: 1em 0 1em 0;
 				}
 
 			}
