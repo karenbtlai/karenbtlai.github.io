@@ -1692,7 +1692,7 @@
 		}
 
 	strong, b {
-		font-weight: 900;
+		font-weight: 600;
 	}
 
 	em, i {
@@ -1733,7 +1733,7 @@
 		}
 
 	h2, h4, h5, h6 {
-		font-weight: 900;
+		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 2em 0;
 		text-transform: uppercase;
@@ -1749,7 +1749,7 @@
 	}
 
 	h3 {
-		font-weight: 900;
+		font-weight: 600;
 		line-height: 1.2em;
 		margin: 0;
 		font-size: 1.8em;
@@ -1782,7 +1782,7 @@
 		}
 
 		h3 {
-			font-size: 0.8em;
+			font-size: 1.5em;
 		}
 
 	}
@@ -1832,7 +1832,7 @@
 
 	hr {
 		border: 0;
-		border-bottom: solid 1.5px #c9c9c9;
+		border-bottom: solid 1px #c9c9c9;
 		margin: 2em 0;
 	}
 
@@ -2095,7 +2095,7 @@
 
 		dl dt {
 			display: block;
-			font-weight: 900;
+			font-weight: 600;
 			margin: 0 0 1em 0;
 		}
 
@@ -2169,7 +2169,7 @@
 	label {
 		display: block;
 		font-size: 0.9em;
-		font-weight: 900;
+		font-weight: 600;
 		margin: 0 0 1em 0;
 	}
 
@@ -2448,7 +2448,7 @@
 
 		table th {
 			font-size: 0.9em;
-			font-weight: 900;
+			font-weight: 600;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
 		}
@@ -2510,7 +2510,7 @@
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
-		font-weight: 900;
+		font-weight: 600;
 		height: 3.5em;
 		letter-spacing: 0.35em;
 		line-height: 3.45em;
@@ -2951,7 +2951,7 @@
 			display: block;
 			border-bottom: 0;
 			color: inherit;
-			font-weight: 900;
+			font-weight: 600;
 			letter-spacing: 0.35em;
 			margin: 0 0 2.5em 0em;
 			text-decoration: none;
@@ -3010,7 +3010,7 @@
 						border-radius: 4px;
 						border: 0;
 						font-size: 0.8em;
-						font-weight: 900;
+						font-weight: 600;
 						letter-spacing: 0.35em;
 						text-transform: uppercase;
 					}
