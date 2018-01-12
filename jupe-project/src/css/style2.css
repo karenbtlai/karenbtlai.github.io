@@ -103,7 +103,7 @@
 	}
 	#section1 .imgsContainer{
 		display: block;
-		position: absolute;
+		position: relative;
 		z-index: 1;
 		top: 42%;
 		left: 58%;
@@ -171,16 +171,18 @@
 
 	/* Section 2
 	* --------------------------------------- */
-	#section2 img{
+	#section2 img, #section3 img{
 		position:absolute;
 		z-index:1;
-		width: 43%;
+		width: 46%;
+		top:0;
     	bottom: 0;
+    	margin:auto;
 	}
 	#section2 .imgsContainer,
 	#staticImg .imgsContainer,
 	#section3 .imgsContainer{
-		position: absolute;
+		position: relative;
 		z-index: -1;
 		display: block;
 		width: 100%;
@@ -237,8 +239,24 @@
 
 	#competitive-background {
 		position:absolute;
-		height:100%;
-		left:3.2%;
+		height:100vh;
+		left:0;
+		right:0;
+		margin:auto;
+	}
+
+	/*screen resolutions lower than 620px*/
+	@media all and (max-width: 1219px){
+		#competitive-background {
+		position:absolute;
+		height:initial;
+		width:100vw;
+		left:initial;
+		right:initial;
+		top:0;
+		bottom:0;
+		margin:auto;
+	}
 	}
 
 	.staticImg1 {
@@ -305,12 +323,6 @@
 		top: 0;
 	}
 
-	#section3 img{
-		position: absolute;
-		z-index:1;
-		width: 43%;
-    	bottom: 0;
-	}
 	#section3 .box{
 		text-align: center;
 		margin: 10% 0 0 0;
@@ -321,8 +333,11 @@
 		position: absolute;
 		z-index:1;
      	width: 30%;
+    	top:0;
+    	bottom: 0;
+    	margin:auto;
     	margin-left: -42%;
-    	margin-top: 20%;
+    	
 	}
 
 	/* Section 4 & 5 */
@@ -330,8 +345,10 @@
 		position: absolute;
 		z-index:1;
      	width:100%;
-     	bottom:0;
-     	left:0;
+     	top:0;
+    	bottom: 0;
+    	left:0;
+    	margin:auto;
 	}
 
 
@@ -345,4 +362,15 @@
 	}
 	#fp-nav li .active span, .fp-slidesNav .active span{
 		background: #AAA;
+	}
+
+
+	/*video*/
+	video {
+		position:absolute;
+		height:100vh;
+		top:0;
+		bottom:0;
+		left:0;
+		margin:auto;
 	}
