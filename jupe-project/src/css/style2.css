@@ -7,7 +7,7 @@
 	/* Style for our header texts
 	* --------------------------------------- */
 	h1{
-		font-size: 5em;
+		font-size: 3em;
 		font-family: arial,helvetica;
 		margin:0;
 		padding:0;
@@ -34,19 +34,23 @@
 		overflow:hidden;
 	}
 	.wrap{
-		width: 1180px;
-		height: 100%;
-		margin-left: auto;
-		margin-right: auto;
+		width: 100%;
 		position: relative;
 	}
 	.box{
-		text-align: left;
+		text-align: center;
 		color: #808080;
 		font-size: 1.2em;
 		line-height: 1.6em;
+		position:absolute;
+		left:0;
+		right:0;
+		margin-top:50vh;
 	}
 
+	.thanks {
+		margin-top:45vh !important;
+	}
 
 
 
@@ -365,7 +369,6 @@
 	}
 
 
-	/*video*/
 	video {
 		position:absolute;
 		height:100vh;
@@ -373,4 +376,27 @@
 		bottom:0;
 		left:0;
 		margin:auto;
+	}
+
+
+	button {
+		margin: 2.5em 0.5em;
+	    padding: 1em 3em;
+	    background-color: #aaaaaa;
+	    color: #000000;
+	    border: none;
+	    border-radius: 8px;
+	    font-size: 0.8em;
+	}
+	button:hover {
+		background-color: #be838a;
+
+		-webkit-transition: all 0.7s ease-in-out;
+		-moz-transition: all 0.7s ease-in-out;
+		-o-transition: all 0.7s ease-in-out;
+		transition: all 0.7s ease-in-out;
+	}
+	button > a {
+		color: #FFFFFF;
+
 	}
