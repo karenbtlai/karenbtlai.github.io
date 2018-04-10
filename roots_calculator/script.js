@@ -19,6 +19,12 @@ function getKeys() {
 	var j = 0;
 
 	document.getElementById("root").innerHTML = "";
+	document.getElementById("output").innerHTML = localStorage.getItem("rootVal");
+	document.getElementById("display").innerHTML = localStorage.getItem("display");
+	document.getElementById("a").innerHTML = localStorage.getItem("a");
+	document.getElementById("b").innerHTML = localStorage.getItem("b");
+	document.getElementById("c").innerHTML = localStorage.getItem("c");
+
 
 	function reset() {
 		document.getElementById("a").innerHTML = "a";
@@ -27,6 +33,11 @@ function getKeys() {
 		document.getElementById("root").innerHTML = "";
 		document.getElementById("output").innerHTML = "";
 		document.getElementById("display").innerHTML = "";
+		localStorage.removeItem("rootVal");
+		localStorage.removeItem("display");
+		localStorage.removeItem("a");
+		localStorage.removeItem("b");
+		localStorage.removeItem("c");
 		j = 0;
 	}
 
@@ -161,6 +172,13 @@ function discriminant() {
 		//document.getElementById("equation").innerHTML = a + "x\u00B2" + "+" + b + "x" + c + "=0";
 		var rootVal = roots(dis, dis1, dis2);
 		document.getElementById("output").innerHTML = rootVal;
+
+    	// Store
+    	localStorage.setItem("rootVal", rootVal); 
+    	localStorage.setItem("display", display.innerHTML);   		  
+    	localStorage.setItem("a", a);
+    	localStorage.setItem("b", b);
+    	localStorage.setItem("c", c);	
 
 	}	
 }
