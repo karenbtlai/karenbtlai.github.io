@@ -1,8 +1,9 @@
 
-# Created by https://www.gitignore.io/api/node,macos
+# Created by https://www.gitignore.io/api/macos
 
 ### macOS ###
-*.DS_Store
+# General
+.DS_Store
 .AppleDouble
 .LSOverride
 
